@@ -11,13 +11,13 @@ import Favourites from "./components/Favourites";
 import personal_data from "./components/personal_data";
 import Default from "./components/Default";
 import './App.css';
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 
 function App() {
   return (
     <div style={{background:"black"}}>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className=" row container-fluid p-5">
         <div className="col-3 ">
           <Header />
