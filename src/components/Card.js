@@ -18,7 +18,7 @@ class Card extends Component {
                             <div className="col-md-3" key={id}>
                                 <div className="card cl">
                                     {/* eslint-disable-next-line */}
-                                    <img className="card-img-top" src={st.img} />
+                                    <img className="card-img-top" src={st.img} alt="description of image" />
                                     <div>
                                         <div>{st.name}</div>
                                         <div>{st.des}</div>
