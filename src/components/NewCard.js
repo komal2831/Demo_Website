@@ -12,13 +12,13 @@ class NewCard extends Component {
     render() {
         return (
             <div>
-                <div class="container-fluid padding">
-                    <div class="row padding">
-                        {this.state.arr.map(st =>
-                            <div class="col-md-3">
-                                <div class="card cl">
+                <div className="container-fluid padding">
+                    <div className="row padding">
+                        {this.state.arr.map((st,id) =>
+                            <div className="col-md-3" key={id}>
+                                <div className="card cl">
                                     {/* eslint-disable-next-line */}
-                                    <img class="card-img-top cardImage" src={st.img} />
+                                    <img className="card-img-top cardImage" src={st.img} />
                                     <div>
                                         <div>{st.name}</div>
                                         <div>{st.des}</div>

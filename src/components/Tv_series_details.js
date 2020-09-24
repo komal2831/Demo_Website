@@ -5,12 +5,12 @@ class Tv_series_details extends Component {
     render() {
         return (
             <div className="container-fluid ">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
                         {/* eslint-disable-next-line */}
                         <img className="b" src="img/10.jpg" />
-                        <div class="carousel-caption">
-                            <h1 class="display-2">WestWorld</h1>
+                        <div className="carousel-caption">
+                            <h1 className="display-2">WestWorld</h1>
                             <h3>Complete Website LayoutComplete Website LayoutComplete Website LayoutComplete Website LayoutComplete Website Layout</h3>
                             <div className="row ">
                                 <button className="btn btn-sm text-dark active btn-outline-light m-1">Sesion 1</button>
