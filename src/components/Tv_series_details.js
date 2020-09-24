@@ -7,6 +7,7 @@ class Tv_series_details extends Component {
             <div className="container-fluid ">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        {/* eslint-disable-next-line */}
                         <img className="b" src="img/10.jpg" />
                         <div class="carousel-caption">
                             <h1 class="display-2">WestWorld</h1>

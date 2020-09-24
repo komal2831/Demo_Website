@@ -5,6 +5,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-md navbar-light sticky-top" style={{background:"black"}}>
                 <div className="container-fluid">
+                    {/* eslint-disable-next-line */}
                     <img src="/img/logo.png" ></img>
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ml-auto">

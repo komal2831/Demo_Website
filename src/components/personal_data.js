@@ -9,6 +9,7 @@ class personal_data extends Component {
     render() { 
         return ( 
             <div>
+                {/* eslint-disable-next-line */}
                 <Tv_series_details />
                 <SeriesPlay />
                 <Description />

@@ -6,6 +6,7 @@ class SeriesPlay extends Component {
             <div class="container-fluid padding">
                 <div class="row padding " style={{marginTop:"40px"}}>
                     <div class="col-lg-6">
+                        {/* eslint-disable-next-line */}
                         <img src="img/15.jpg" class="img-fluid" />
                     </div>
                     <div class="col-md-12 col-lg-6 text-light">

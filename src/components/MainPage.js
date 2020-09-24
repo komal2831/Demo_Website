@@ -7,6 +7,7 @@ class MainPage extends Component {
     render() { 
         return ( 
             <div className="container-fluid center">
+                {/* eslint-disable-next-line */}
                 <Image_Slider />
                 <MoviesCollections />
             </div>

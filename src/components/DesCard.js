@@ -17,6 +17,7 @@ class DesCard extends Component {
                         {this.state.arr.map(st =>
                             <div class="col-md-3">
                                 <div class="card cl">
+                                    {/* eslint-disable-next-line */}
                                     <img class="card-img-top" src={st.img} />
                                     <div className="p-2">
                                         <div>{st.name}</div>

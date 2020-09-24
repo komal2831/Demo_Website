@@ -15,6 +15,7 @@ class Image_Slider extends Component {
                 </ul>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                            {/* eslint-disable-next-line */}
                         <img className="b" src="img/9.jpg" />
                         <div class="carousel-caption">
                             <h1 class="display-2">Intersteller</h1>
