@@ -19,10 +19,10 @@ function App() {
     <div style={{background:"black"}}>
       <Navbar />
       <div className=" row container-fluid p-5">
-        <div className="col-3 ">
+        <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
           <Header />
         </div>
-        <div className="col-9">
+        <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
           <Switch>
             <Route path="/" exact component={MainPage} />
             <Route path="/TV_channels" component={TV_channels} />

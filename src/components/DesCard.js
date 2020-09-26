@@ -15,7 +15,7 @@ class DesCard extends Component {
                 <div className="container-fluid padding">
                     <div className="row padding">
                         {this.state.arr.map((st,id) =>
-                            <div className="col-md-3" key ={id}>
+                            <div className="col-md-3 p-1" key ={id}>
                                 <div className="card cl">
                                     {/* eslint-disable-next-line */}
                                     <img className="card-img-top" src={st.img} />
